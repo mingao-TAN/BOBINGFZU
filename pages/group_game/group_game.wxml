@@ -1,0 +1,16 @@
+<view class="container">
+    <image class="bgImg" src="../../image/game.jpg"></image>
+    <other-widget class="other-widget">
+        <view class="gotopage_create">
+            <navigator url='/pages/create/create'>
+                <image src='../../image/创建房间.jpg' class='create'></image>
+                <view class='font_create'></view>
+                <view class='font_create2'></view>
+            </navigator>
+        </view>
+        <view class="gotopage_join">
+            <navigator url='/pages/join/join'>
+            </navigator>
+        </view>
+    </other-widget>  <!-- other widget希望是放在背景图片之上的 -->
+</view>

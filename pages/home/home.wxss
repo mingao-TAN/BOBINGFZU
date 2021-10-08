@@ -1,0 +1,44 @@
+/* pages/home/home.wxss */
+.other-widget{
+    position: absolute;
+}
+page {
+  height: 100%;
+}
+.bgImg {
+  width: 100%;
+  height: 100%;
+  position:fixed; 
+  background-size:100% 100%;
+  z-index: -1;
+}
+.item1{
+  width: 250rpx;
+  height: 250rpx;
+  position: fixed;
+  right: 240rpx;
+  bottom: 650rpx;
+}
+.item2{
+  width: 250rpx;
+  height: 250rpx;
+  position: fixed;
+  right: 240rpx;
+  bottom: 420rpx;
+}
+.container{
+  width: 100%;
+  height: 1210rpx;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+image{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.up{
+  position: absolute;
+  z-index: 1;
+}
